@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400" width="320" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF6E8"/>
+      <stop offset="1" stop-color="#FFE0AC"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#FFD98C" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFD98C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF3DC"/>
+      <stop offset="1" stop-color="#F7D9A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="400" fill="url(#bg)"/>
+  <rect width="320" height="400" fill="url(#glow)"/>
+  <rect x="7" y="7" width="306" height="386" rx="10" fill="none" stroke="#B4562A" stroke-opacity="0.28" stroke-width="1.5"/>
+
+  <!-- 星星点缀 -->
+  <g fill="#E89A4F">
+    <path d="M46 66 l3.2 8.8 8.8 3.2 -8.8 3.2 -3.2 8.8 -3.2 -8.8 -8.8 -3.2 8.8 -3.2 Z" opacity=".55"/>
+    <path d="M266 96 l2.6 7 7 2.6 -7 2.6 -2.6 7 -2.6 -7 -7 -2.6 7 -2.6 Z" opacity=".45"/>
+    <path d="M60 300 l2.2 6 6 2.2 -6 2.2 -2.2 6 -2.2 -6 -6 -2.2 6 -2.2 Z" opacity=".4"/>
+    <path d="M262 318 l2.8 7.6 7.6 2.8 -7.6 2.8 -2.8 7.6 -2.8 -7.6 -7.6 -2.8 7.6 -2.8 Z" opacity=".5"/>
+    <circle cx="90" cy="46" r="2.4" opacity=".5"/>
+    <circle cx="238" cy="60" r="2" opacity=".45"/>
+    <circle cx="44" cy="180" r="2" opacity=".35"/>
+    <circle cx="284" cy="236" r="2.4" opacity=".4"/>
+  </g>
+
+  <!-- 蜡烛与火苗 -->
+  <g>
+    <rect x="156" y="118" width="8" height="46" rx="3" fill="#E86A33"/>
+    <line x1="160" y1="112" x2="160" y2="122" stroke="#8A4B22" stroke-width="2"/>
+    <ellipse cx="160" cy="102" rx="7.5" ry="11" fill="#FFB25E"/>
+    <ellipse cx="160" cy="104" rx="3.6" ry="6" fill="#FFF3DC"/>
+    <circle cx="160" cy="102" r="17" fill="#FFD98C" opacity=".35"/>
+  </g>
+
+  <!-- 三层蛋糕 -->
+  <g stroke="#B4562A" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="96" y="164" width="128" height="34" rx="9" fill="url(#cream)"/>
+    <rect x="80" y="202" width="160" height="38" rx="10" fill="url(#cream)"/>
+    <rect x="60" y="244" width="200" height="42" rx="11" fill="url(#cream)"/>
+  </g>
+  <g stroke="#E89A4F" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M104 181 q7 -7 14 0 q7 7 14 0 q7 -7 14 0 q7 7 14 0 q7 -7 14 0 q7 7 14 0 q7 -7 14 0" fill="none"/>
+    <path d="M92 221 q8 -8 16 0 q8 8 16 0 q8 -8 16 0 q8 8 16 0 q8 -8 16 0 q8 8 16 0 q8 -8 16 0 q8 8 16 0 q8 -8 16 0" fill="none"/>
+    <path d="M74 265 q9 -9 18 0 q9 9 18 0 q9 -9 18 0 q9 9 18 0 q9 -9 18 0 q9 9 18 0 q9 -9 18 0 q9 9 18 0 q9 -9 18 0 q9 9 18 0 q9 -9 18 0" fill="none"/>
+  </g>
+  <!-- 盘子 -->
+  <ellipse cx="160" cy="292" rx="118" ry="10" fill="#FFF3DC" stroke="#B4562A" stroke-width="2"/>
+
+  <!-- 心形小装饰 -->
+  <path d="M248 152 c-4 -7 -14 -5 -14 2 c0 6 8 10 14 15 c6 -5 14 -9 14 -15 c0 -7 -10 -9 -14 -2 Z" fill="#E86A33" opacity=".8"/>
+  <path d="M72 148 c-3.4 -6 -12 -4.2 -12 1.8 c0 5 6.8 8.6 12 12.8 c5.2 -4.2 12 -7.8 12 -12.8 c0 -6 -8.6 -7.8 -12 -1.8 Z" fill="#E89A4F" opacity=".65"/>
+</svg>

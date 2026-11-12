@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>清风77 · 把人生当盲盒拆的人</title>
+<meta name="description" content="清风77（重启人生）——人生体验家、抗癌重生者、温柔父亲。77 个意义碎片：折纸、戏剧、脱口秀、支教、TEDx……viva la vida，人生万岁。">
+<meta name="theme-color" content="#0B0908">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="清风77 · 把人生当盲盒拆的人">
+<meta property="og:description" content="把人生重启成体验模式——正在打开 77 个未知的人生盲盒。viva la vida。">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/martian-mono-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css?v=3">
+</head>
+<body>
+
+<canvas id="field" aria-hidden="true"></canvas>
+<div id="theme-veil" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a class="brand" href="#top">
+    <svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="7" fill="currentColor"/><g stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="16" y1="2" x2="16" y2="7"/><line x1="16" y1="25" x2="16" y2="30"/><line x1="2" y1="16" x2="7" y2="16"/><line x1="25" y1="16" x2="30" y2="16"/><line x1="6.1" y1="6.1" x2="9.6" y2="9.6"/><line x1="22.4" y1="22.4" x2="25.9" y2="25.9"/><line x1="25.9" y1="6.1" x2="22.4" y2="9.6"/><line x1="6.1" y1="25.9" x2="9.6" y2="22.4"/></g></svg>
+    <span>清风77</span>
+  </a>
+  <nav class="nav" aria-label="主导航">
+    <a href="#timeline">自我</a>
+    <a href="#identity">身份</a>
+    <a href="#hobby">兴趣</a>
+    <a href="#life">生活</a>
+    <a href="#contact">联系</a>
+  </nav>
+  <button id="theme-toggle" aria-label="切换明暗主题" title="切换明暗主题">
+    <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zm0 1.7v9.6a4.8 4.8 0 0 1 0-9.6z" fill="currentColor"/></svg>
+  </button>
+</header>
+
+<nav class="dots" aria-label="章节导航">
+  <a href="#top" data-dot><i>00</i><b>序</b></a>
+  <a href="#timeline" data-dot><i>01</i><b>自我</b></a>
+  <a href="#identity" data-dot><i>02</i><b>身份</b></a>
+  <a href="#hobby" data-dot><i>03</i><b>兴趣</b></a>
+  <a href="#life" data-dot><i>04</i><b>生活</b></a>
+  <a href="#contact" data-dot><i>05</i><b>联系</b></a>
+</nav>
+
+<main>
+
+  <!-- 00 HERO · 自我介绍（两幕：名字 → 爬坡颗粒） -->
+  <section class="hero chapter" id="top"
+    data-forms="qf77,mountain" data-split="0.46" data-labels="清风77 / 爬坡 · 起起伏伏">
+    <div class="hero-main">
+      <p class="kicker rv">EST. 1987 · SHANGHAI · REBOOTED 2022 · <b>VIVA LA VIDA</b></p>
+      <h1 class="hero-title rv" id="hero-title">清风77</h1>
+      <p class="hero-line rv" style="--d:.12s">把人生当盲盒拆的人。</p>
+      <p class="hero-meta rv" style="--d:.22s">人生体验家 · 抗癌重生者 · 温柔父亲</p>
+    </div>
+    <div class="hero-act2">
+      <i class="p-anchor" id="an-mountain" style="left:73%;top:46%" aria-hidden="true"></i>
+      <p class="m-quote rv">最难爬的那段，</p>
+      <p class="m-quote rv" style="--d:.1s">风景最好。</p>
+      <p class="m-cap rv" style="--d:.2s">人生就是起起伏伏——往下走的那段，别急着抬头。</p>
+      <a class="scroll-hint rv" style="--d:.32s" href="#timeline" aria-label="向下滚动">拆下一个盲盒<i></i></a>
+    </div>
+  </section>
+
+  <!-- 自我 · 时间线轨道 -->
+  <section class="chapter sec" id="timeline" data-forms="heart" data-labels="心跳 · 活着的证据">
+    <i class="p-anchor" id="an-heart" style="right:13%;top:52%" aria-hidden="true"></i>
+    <header class="sec-head rv">
+      <p class="kicker">自我 · 1987 → NOW</p>
+      <h2 class="sec-title">人生轨道 -> 旷野</h2>
+      <p class="sec-sub">前半段一路顺遂；2021 年，轨道拐了个急弯——现在，正重新往上爬。</p>
+    </header>
+
+    <div class="timeline">
+      <div class="tl-rail" aria-hidden="true"></div>
+
+      <article class="tl-node rv" data-slope="up">
+        <div class="tl-year"><b>1987—2020</b><i class="tl-slope">↗ 一路顺遂</i></div>
+        <div class="tl-body">
+          <h3>出生上海，标准剧本</h3>
+          <p>87 年生，读书、进银行、做产品——211 金融出身，前银行总行大数据架构师，前央企产品总监。轨道又直又稳。2014年有了一个非常可爱的女儿。</p>
+          <div class="tl-tags"><i>金融 IT</i><i>大数据架构</i><i>产品总监</i></div>
+        </div>
+        <div class="tl-photos">
+          <figure class="tl-shot"><img src="images/childhood.jpg" alt="顺遂年代" loading="lazy"><figcaption>顺遂年代</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="tl-node rv low" data-slope="down" style="--d:.08s">
+        <div class="tl-year"><b>2021</b><i class="tl-slope dn">↘ 急转弯</i></div>
+        <div class="tl-body">
+          <h3>确诊鼻咽癌</h3>
+          <p>33 次放疗 · 9 次化疗。最难爬的那段——风景，是后来才看见的。</p>
+        </div>
+      </article>
+
+      <article class="tl-node rv now" data-slope="up" style="--d:.16s">
+        <div class="tl-year"><b>NOW</b><i class="tl-slope">↗ 重新上坡</i></div>
+        <div class="tl-body">
+          <h3>重启人生 · 人生体验者</h3>
+          <p>把日子过成 77 个盲盒：折纸奥赛、演员、老师、脱口秀、TEDx……每个盒子都拆得叮当作响。</p>
+          <a class="who-video tl-video" href="https://www.xiaohongshu.com/discovery/item/67f291b1000000001b024a41?source=webshare&xhsshare=pc_web&xsec_token=AB1e9uZfxuiN9H3bR64SkxFwb4HspPa8z9dbHv9_xKez8=&xsec_source=pc_share" target="_blank" rel="noopener">
+            <span class="wv-play">▶</span>
+            <span class="wv-body"><b>用 vlog 介绍一下我的超酷老爸</b><i>女儿视角 · 点开看小红书视频</i></span>
+            <span class="wv-go">↗</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 01 身份 -->
+  <section class="chapter sec" id="identity" data-forms="blindbox" data-labels="盲盒 · 身份盲盒">
+    <i class="p-anchor" id="an-blindbox" style="left:63%;top:13%" aria-hidden="true"></i>
+    <header class="sec-head rv">
+      <p class="kicker">01 · 身份 / IDENTITIES</p>
+      <h2 class="sec-title">我，同时是这些身份</h2>
+      <p class="sec-sub">身份不是履历表，是一次次拆盲盒拆出来的——每行一个身份，点图看视频。</p>
+    </header>
+
+    <div class="id-list">
+      <article class="id-row rv">
+        <div class="id-tag"><b>TEDx 演讲者</b><i>SPEAKER</i></div>
+        <div class="id-copy">
+          <p class="id-line">2025 年 7 月 · TEDxXuhui</p>
+          <p class="id-desc">作为讲者登台，分享《在裂缝里种下光》——把确诊那年的裂缝，讲成了光的种植口。</p>
+        </div>
+        <div class="id-media id-duo">
+          <figure class="id-shot vcard" data-href="https://www.xiaohongshu.com/discovery/item/6a3525900000000006020ad9?source=webshare&xhsshare=pc_web&xsec_token=ABo5m5s7OtggODkJ6LW4odDC-L34kYjmAufaL9LWfSLp8=&xsec_source=pc_share" title="点开看小红书视频">
+            <img src="images/exp04.jpg" alt="TEDx 演讲现场" loading="lazy"><span class="vbadge">▶</span>
+            <figcaption>现场 · 18 分钟</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="id-row rv" style="--d:.05s">
+        <div class="id-tag"><b>小红书博主</b><i>VLOGGER · 1.9W</i></div>
+        <div class="id-copy">
+          <p class="id-line">@清风77（重启人生） · 拆盒实况连载中</p>
+          <p class="id-desc">1.9 万粉的 Vlog 博主——把 77 个盲盒一个个拍给你看：开放麦、片场、电台间、街头。<a class="id-link" href="https://www.xiaohongshu.com/user/profile/55863ad8e4b1cf14aa9ae373" target="_blank" rel="noopener">去主页逛逛 ↗</a></p>
+        </div>
+        <div class="id-media">
+          <div class="id-thumbs">
+            <figure class="id-shot sm vcard" data-href="https://www.xiaohongshu.com/discovery/item/68677ffe00000000230063e8?source=webshare&xhsshare=pc_web&xsec_token=ABv7LUo4JUoQhA4CJwfz9pmhiJcxHOW96xT1IqJwgiLjI=&xsec_source=pc_share" title="点开看小红书视频"><img src="images/exp07.jpg" alt="脱口秀开放麦" loading="lazy"><span class="vbadge">▶</span><figcaption>开放麦</figcaption></figure>
+            <figure class="id-shot sm vcard" data-href="https://www.xiaohongshu.com/discovery/item/6630a142000000001e030ddc?source=webshare&xhsshare=pc_web&xsec_token=ABWimv1itc2-k-FamfZH0MktutllCgFVIl4FVoFCurzbE=&xsec_source=pc_share" title="点开看小红书视频"><img src="images/exp10.jpg" alt="和明星同台" loading="lazy"><span class="vbadge">▶</span><figcaption>同台</figcaption></figure>
+            <figure class="id-shot sm vcard" data-href="https://www.xiaohongshu.com/discovery/item/66534c1b0000000014018bdf?source=webshare&xhsshare=pc_web&xsec_token=ABwVxJXxknikHUhwrtZGNp0uajQ9I2pilpQkdCkHzg81E=&xsec_source=pc_share" title="点开看小红书视频"><img src="images/exp17.jpg" alt="电台 DJ" loading="lazy"><span class="vbadge">▶</span><figcaption>电台</figcaption></figure>
+            <figure class="id-shot sm vcard" data-href="https://www.xiaohongshu.com/discovery/item/684eaf27000000002001cc20?source=webshare&xhsshare=pc_web&xsec_token=ABwYtJl_KEk_qHTrES2siMlOlMum8Nj615EigiXJeNXTA=&xsec_source=pc_share" title="点开看小红书视频"><img src="images/exp09.jpg" alt="拆盒实况" loading="lazy"><span class="vbadge">▶</span><figcaption>实况</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="id-row rv" style="--d:.1s">
+        <div class="id-tag"><b>演员</b><i>ACTOR</i></div>
+        <div class="id-copy">
+          <ul class="id-list2">
+            <li><b>沉浸式戏剧《Number 7》</b>· 饰 香港富商</li>
+            <li><b>《旧物盒》</b>· 饰 证券交易员</li>
+            <li><b>2025 上海文广发布季</b>· 表演嘉宾 饰 消防员</li>
+          </ul>
+        </div>
+        <div class="id-media">
+          <figure class="id-shot vcard" data-href="https://www.xiaohongshu.com/discovery/item/67fa6072000000001c00508d?source=webshare&xhsshare=pc_web&xsec_token=ABktiDiQA8qEqQXQxcngIKDfW33ijVgXQnEAoxqPJ5Jmw=&xsec_source=pc_share" title="点开看小红书视频">
+            <img src="images/exp06.jpg" alt="沉浸式戏剧" loading="lazy"><span class="vbadge">▶</span>
+            <figcaption>香港富商 · 《Number 7》</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="id-row rv" style="--d:.15s">
+        <div class="id-tag"><b>老师</b><i>TEACHER</i></div>
+        <div class="id-copy">
+          <ul class="id-list2">
+            <li><b>广西山区支教</b>· 给孩子们当讲师</li>
+            <li><b>折纸课老师</b>·「纯粹的开心」也可以教</li>
+            <li><b>国际折纸艺术家工作坊</b>· 现场翻译</li>
+          </ul>
+        </div>
+        <div class="id-media">
+          <figure class="id-shot vcard" data-href="https://www.xiaohongshu.com/discovery/item/688891f7000000002303b155?source=webshare&xhsshare=pc_web&xsec_token=ABuBmdwYdZ0t-AWq4NU7r1EK7VO0ECf6Qbu9N2ALGMHR8=&xsec_source=pc_share" title="点开看小红书视频">
+            <img src="images/exp05.jpg" alt="山区支教" loading="lazy"><span class="vbadge">▶</span>
+            <figcaption>山区课堂 · 一边搬猪一边做老师</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="id-row rv" style="--d:.2s">
+        <div class="id-tag"><b>金融 IT 管理</b><i>FINTECH · 前</i></div>
+        <div class="id-copy">
+          <ul class="id-list2">
+            <li><b>前银行总行</b>· 大数据架构师</li>
+            <li><b>前金融央企</b>· 产品总监</li>
+          </ul>
+          <p class="id-desc dim">那段「标准剧本」没丢——它让现在的每一次冒险，都有底气。</p>
+        </div>
+        <div class="id-media">
+          <figure class="id-shot"><img src="images/office.jpg" alt="工作照 · 待挂" loading="lazy"><figcaption>工作照 · 待挂</figcaption></figure>
+        </div>
+      </article>
+    </div>
+
+    <div class="chip-strip rv">
+      <p class="cs-cap">还有这些盲盒，随时拆 ↓</p>
+      <div class="cs-chips">
+        <a class="cs-chip vcard" data-href="https://www.xiaohongshu.com/discovery/item/6659a5990000000005007ee9?source=webshare&xhsshare=pc_web&xsec_token=AB_CV7N-Ab2jVq8S5PEJpwmQtpeGAZeZHEysRmQtQQi0w=&xsec_source=pc_share">▶ 一日店长</a>
+        <a class="cs-chip vcard" data-href="https://www.xiaohongshu.com/discovery/item/6833958c000000002001dea9?source=webshare&xhsshare=pc_web&xsec_token=ABhKgPT5vp_DkVNSM4u97RxFGielvpYRtlD-4PU33vnYg=&xsec_source=pc_share">▶ 街头办派对</a>
+        <a class="cs-chip vcard" data-href="https://www.xiaohongshu.com/discovery/item/69cdc05d000000001a02d70d?source=webshare&xhsshare=pc_web&xsec_token=ABGMbTX98GnuE_8JlhqdE2_Il2npBsFqHGsTI3u9ICEQw=&xsec_source=pc_share">▶ 蜡染体验</a>
+        <a class="cs-chip vcard" data-href="https://www.xiaohongshu.com/discovery/item/690710f800000000050321a5?source=webshare&xhsshare=pc_web&xsec_token=ABzbkY_gAHjOuInyEFuVhgTL_yzmm33FxJoIin9z4SG_E=&xsec_source=pc_share">▶ 重回大学</a>
+        <a class="cs-chip vcard" data-href="https://www.xiaohongshu.com/discovery/item/6a22452c000000002101b8fc?source=webshare&xhsshare=pc_web&xsec_token=ABJde_GBYnJu80VLut4eiaHx9T3J_BYrBxzNNt43Gls10=&xsec_source=pc_share">▶ 寺庙禅修</a>
+        <a class="cs-chip vcard" data-href="https://www.xiaohongshu.com/discovery/item/666c5417000000001e02e06f?source=webshare&xhsshare=pc_web&xsec_token=ABmo_Gs3sl-ov5J7vnIQIxQKzhnJDJd7vQXuD2Dd_WZRE=&xsec_source=pc_share">▶ 14 年写的歌</a>
+        <a class="cs-chip vcard" data-href="https://www.xiaohongshu.com/discovery/item/681b103d000000001e022742?source=webshare&xhsshare=pc_web&xsec_token=AB0iBDN4Y2QBbeX9ZBlYekGfqOf_TWOiKY4ebn-MmXxLs=&xsec_source=pc_share">▶ 脱口秀幕后</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 幕间 · 巨型「77」（粒子主舞台） -->
+  <section class="chapter stage" id="s77" data-forms="n77" data-labels="77 · 意义碎片">
+    <p class="n77-text" id="n77-text" aria-hidden="true">77</p>
+    <div class="stage-copy rv">
+      <p class="stage-kicker">FRAGMENTS · 意义碎片</p>
+      <p class="stage-line">77 不是年龄，</p>
+      <p class="stage-line">是 77 种活法。</p>
+    </div>
+  </section>
+
+  <!-- 02 兴趣 -->
+  <section class="chapter sec" id="hobby" data-forms="vinyl" data-labels="唱片 · 人生这首歌">
+    <i class="p-anchor" id="an-vinyl" style="right:9%;top:46%" aria-hidden="true"></i>
+    <header class="sec-head rv">
+      <p class="kicker">02 · 兴趣 / PLAYGROUND</p>
+      <h2 class="sec-title">认真玩，是正经事</h2>
+      <p class="sec-sub">副歌在 39 岁才进——这些爱好，是每天的主歌。</p>
+    </header>
+
+    <div class="hb-block rv" id="hb-origami">
+      <div class="hb-head"><span class="hb-no">A</span><h3>折纸</h3><i>ORIGAMI</i></div>
+      <div class="hb-grid">
+        <div class="hb-copy">
+          <p>从病床边第一只千纸鹤，折到世界赛场——<b>折纸奥林匹克 · 全球第 14 名</b>。纸是有记忆的，折痕不会说谎。</p>
+          <a class="who-video" href="https://www.xiaohongshu.com/discovery/item/66395f66000000001e03315f?source=webshare&xhsshare=pc_web&xsec_token=ABZjVLbxHQuP-RvwY3dyln26Y0DSuQLZaccUoeLIyeXc8=&xsec_source=pc_share" target="_blank" rel="noopener">
+            <span class="wv-play">▶</span>
+            <span class="wv-body"><b>重启人生 02：没有门槛的奥林匹克比赛？</b><i>点开看小红书视频</i></span>
+            <span class="wv-go">↗</span>
+          </a>
+        </div>
+        <div class="hb-hint"><i>◀ 按住拖动 ▶</i></div>
+      </div>
+      <p class="hlayer-cap">① 自己的作品 · WORKS</p>
+      <div class="hslide" data-drag>
+        <figure class="sl-card pcard" data-cap="我的蘑菇"><img src="images/work0.jpg" alt="折纸作品 · 奥林匹克" loading="lazy"><figcaption>奥赛作品</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="魔法兔和小蚂蚁"><img src="images/work1.jpg" alt="奔兔" loading="lazy"><figcaption>奔兔</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="圣诞的折纸小狐狸"><img src="images/work2.jpg" alt="圣诞折纸" loading="lazy"><figcaption>圣诞小狐</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="窗前的变色龙，正伸出长舌"><img src="images/work3.jpg" alt="变色龙" loading="lazy"><figcaption>变色龙</figcaption></figure>
+        <figure class="sl-card pcard top" data-cap="拉小提琴的女孩"><img src="images/work4.jpg" alt="拉琴女孩" loading="lazy"><figcaption>琴女孩</figcaption></figure>
+        <figure class="sl-card pcard top" data-cap="神谷的红龙，梦开始的地方"><img src="images/work5.jpg" alt="折纸作品 · 红龙" loading="lazy"><figcaption>红龙</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="小仓鼠"><img src="images/work6.jpg" alt="折纸作品 · 小仓鼠" loading="lazy"><figcaption>小仓鼠</figcaption></figure>
+        <figure class="sl-card pcard top" data-cap="龙"><img src="images/work7.jpg" alt="折纸作品 · 龙" loading="lazy"><figcaption>龙</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="蛇"><img src="images/work8.jpg" alt="折纸作品 · 蛇" loading="lazy"><figcaption>蛇</figcaption></figure>
+      </div>
+      <p class="hlayer-cap">② 和世界级折纸大师们的合影 · MASTERS</p>
+      <div class="hslide" data-drag>
+        <figure class="sl-card pcard" data-cap="法国艺术家 vincent"><img src="images/master1.jpg" alt="大师合影 · 壹" loading="lazy"><figcaption>vincent</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="折纸宗师 Robert J Lang"><img src="images/master2.jpg" alt="大师合影 · 贰" loading="lazy"><figcaption>Robert J Lang</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="越南好友 阮武宪章"><img src="images/master3.jpg" alt="大师合影 · 叁" loading="lazy"><figcaption>阮武宪章</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="法国大拿 Terry"><img src="images/master4.jpg" alt="大师合影 · 肆" loading="lazy"><figcaption>Terry</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="我的启蒙老师 Diaz Roman"><img src="images/master5.jpg" alt="大师合影 · 待挂" loading="lazy"><figcaption>Diaz Roman</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="越南大神 阮雄强"><img src="images/master6.jpg" alt="大师合影 · 待挂" loading="lazy"><figcaption>阮雄强</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="日本 三谷纯"><img src="images/master7.jpg" alt="大师合影 · 待挂" loading="lazy"><figcaption>三谷纯</figcaption></figure>
+        <figure class="sl-card pcard" data-cap="日本 森末圭"><img src="images/master8.jpg" alt="大师合影 · 待挂" loading="lazy"><figcaption>森末圭</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="hb-block rv" id="hb-ai" style="--d:.05s">
+      <div class="hb-head"><span class="hb-no">B</span><h3>AI</h3><i>TINKER</i></div>
+      <div class="hb-grid">
+        <div class="hb-copy">
+          <p>把 AI 当玩具：搭过网页，也烧过固件——<b>一个讲哲学，一个全是猎人</b>。代码是新的折纸，折的还是好奇心。</p>
+        </div>
+        <div class="hb-games">
+          <a class="hb-game" href="https://yilvqingfeng.surge.sh" target="_blank" rel="noopener" title="点开试玩 · 哲学小游戏">
+            <img src="images/game-phil.png" alt="哲学网页小游戏" loading="lazy">
+            <div class="hg-cap"><b>哲学小游戏</b><i>网页 · 点开即玩 ↗</i></div>
+          </a>
+          <a class="hb-game" href="https://sfile.chatglm.cn/workspace/file/6d/6d86b250c3.html" target="_blank" rel="noopener" title="点开试玩 · 全是猎人">
+            <img src="images/game-hunt.png" alt="猎人 ESP32 游戏" loading="lazy">
+            <div class="hg-cap"><b>全是猎人的游戏</b><i>ESP32 · 官网 ↗</i></div>
+          </a>
+        </div>
+        <p class="hb-sub">顺手还写了首歌 ——</p>
+        <div class="hb-works">
+          <a class="hb-game vcard" data-href="https://www.xiaohongshu.com/discovery/item/69f313e8000000001a02e09e?source=webshare&xhsshare=pc_web&xsec_token=AB46L9Cr5QEWqzaU3aRuHdnfGEmknKFfhHXvsdXQGTclg=&xsec_source=pc_share" title="点开看小红书视频">
+            <img src="images/songmv.jpg" alt="我写的歌 · MV" loading="lazy"><span class="vbadge">▶</span>
+            <div class="hg-cap"><b>我写的歌 · MV</b><i>词曲 · 清风77</i></div>
+          </a>
+          <a class="hb-game" data-todo title="视频链接待补">
+            <img src="images/drama1.jpg" alt="短剧《擦肩而过》" loading="lazy">
+            <div class="hg-cap"><b>《擦肩而过》</b><i>短剧 · 视频待补</i></div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hb-block rv" id="hb-memory" style="--d:.1s">
+      <div class="hb-head"><span class="hb-no">C</span><h3>其他</h3><i>AND MORE</i></div>
+      <div class="hb-grid">
+        <div class="hb-copy">
+          <p>除了折纸、AI 和上面这些，还在玩这些——</p>
+        </div>
+      </div>
+      <ul class="other-list">
+        <li><b>记忆法</b>：练过记忆宫殿，后来做了<b>记忆大赛的裁判</b>——看别人把圆周率背成诗，把扑克牌读成故事。</li>
+        <li><b>吉他 &amp; 写歌</b>：学过吉他，自己写过歌、玩过乐队。</li>
+        <li><b>脱口秀</b>：去开放麦演过几次——把严肃的事说搞笑，是另一种温柔。</li>
+        <li><b>哲学</b>：一直在读，喜欢加缪和海德格尔——人生荒诞这件事，聊明白了反而轻松。</li>
+        <li><b>辩论</b>：一直在看，喜欢观点碰撞——好的辩论不是赢，是让双方都更接近真实。</li>
+        <li><b>其他</b>：比如魔术、杂技，还有超级多的爱好，等着解锁。</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 幕间 · 太阳（粒子主舞台） -->
+  <section class="chapter stage" id="ssun" data-forms="sun" data-labels="太阳 · 裂缝种光">
+    <i class="p-anchor" id="an-sun" style="left:22%;top:30%" aria-hidden="true"></i>
+    <div class="stage-copy rv">
+      <p class="stage-kicker">LIGHT · 裂缝种光</p>
+      <p class="stage-line">裂缝不是伤口，</p>
+      <p class="stage-line">是光的种植口。</p>
+    </div>
+  </section>
+
+  <!-- 03 生活 · 挂绳照片墙 -->
+  <section class="chapter sec" id="life" data-forms="balloon" data-labels="热气球 · 慢慢升空">
+    <i class="p-anchor" id="an-balloon" style="right:12%;top:30%" aria-hidden="true"></i>
+    <header class="sec-head rv">
+      <p class="kicker">03 · 生活 / DAILY LIGHT</p>
+      <h2 class="sec-title">晾一晾日常</h2>
+      <p class="sec-sub">生活照片墙——夹子挂上绳，松散、随性、不整齐。想挂新照片，随时往上夹。</p>
+    </header>
+
+    <div class="life-wall">
+      <svg class="rope" viewBox="0 0 1200 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 12 Q 300 42 600 24 T 1200 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+      <div class="hang-row">
+        <figure class="hang pcard rv" style="--r:-7deg;--mt:6px;--d:.04s" data-cap="她人生的第一场演唱会，观众只有她。">
+          <img src="images/fam01.jpg" alt="父女剪影" loading="lazy"><figcaption>她的首演</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:7deg;--ml:-34px;--mt:22px;--d:.08s" data-cap="我折的蘑菇，换来这个笑声。">
+          <img src="images/fam02.jpg" alt="拼图时光" loading="lazy"><figcaption>蘑菇与笑</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:-5deg;--ml:-42px;--mt:10px;--d:.12s" data-cap="肩膀，是她的枕头。">
+          <img src="images/fam04.jpg" alt="蜡笔画" loading="lazy"><figcaption>肩膀枕头</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:8deg;--ml:-38px;--mt:30px;--d:.16s" data-cap="坝上草原，她任命我为专属司机。">
+          <img src="images/xhs02.jpg" alt="日常" loading="lazy"><figcaption>草原座驾</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:-7deg;--ml:-46px;--mt:14px;--d:.2s" data-cap="结疗三周年，把 77 朵花送还给世界。">
+          <img src="images/xhs01.jpg" alt="结疗三周年送花" loading="lazy"><figcaption>结疗三周年</figcaption>
+        </figure>
+      </div>
+
+      <svg class="rope r2" viewBox="0 0 1200 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 18 Q 340 -6 640 30 T 1200 22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+      <div class="hang-row r2">
+        <figure class="hang pcard rv" style="--r:6deg;--mt:2px;--d:.08s" data-cap="浪来了，先笑再说。">
+          <img src="images/xhs03.jpg" alt="日常" loading="lazy"><figcaption>先笑再说</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:5deg;--ml:-44px;--mt:8px;--d:.12s" data-cap="同款马步，没排练过一秒。">
+          <img src="images/xhs04.jpg" alt="日常" loading="lazy"><figcaption>同款马步</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:-6deg;--ml:-36px;--mt:28px;--d:.16s" data-cap="她烤的鱼，全世界最香。">
+          <img src="images/xhs05.jpg" alt="日常" loading="lazy"><figcaption>全世界最香</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:7deg;--ml:-40px;--mt:12px;--d:.2s" data-cap="她踮起脚，替我戴正领结。">
+          <img src="images/xhs06.jpg" alt="日常" loading="lazy"><figcaption>领结</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:-5deg;--ml:-42px;--mt:18px;--d:.24s" data-cap="生活节，最佳队友是她。">
+          <img src="images/xhs07.jpg" alt="日常" loading="lazy"><figcaption>最佳队友</figcaption>
+        </figure>
+            </div>
+
+      <svg class="rope r3" viewBox="0 0 1200 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 22 Q 320 -4 620 28 T 1200 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+      <div class="hang-row r3">
+        <figure class="hang pcard rv" style="--r:-6deg;--mt:4px;--d:.04s" data-cap="做个鬼脸，做回小孩。">
+          <img src="images/daily1.jpg" alt="日常" loading="lazy"><figcaption>做回小孩</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:7deg;--ml:-34px;--mt:24px;--d:.08s" data-cap="寺庙禅修，她学我的样子盘腿。">
+          <img src="images/daily2.jpg" alt="日常" loading="lazy"><figcaption>一起修行</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:-5deg;--ml:-42px;--mt:10px;--d:.12s" data-cap="大树下，她说这是我们的树屋。">
+          <img src="images/daily3.jpg" alt="日常" loading="lazy"><figcaption>我们的树屋</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:8deg;--ml:-38px;--mt:30px;--d:.16s" data-cap="海边，她带我踢浪。">
+          <img src="images/daily4.jpg" alt="日常" loading="lazy"><figcaption>带我踢浪</figcaption>
+        </figure>
+        <figure class="hang pcard rv" style="--r:-7deg;--ml:-46px;--mt:14px;--d:.2s" data-cap="鼻尖碰鼻尖，说好一起慢慢长大。">
+          <img src="images/daily5.jpg" alt="日常" loading="lazy"><figcaption>说好了</figcaption>
+        </figure>
+</div>
+    </div>
+  </section>
+
+  <!-- 04 CONTACT · 商务 + 尾声 -->
+  <section class="chapter contact" id="contact" data-forms="qr" data-labels="二维码 · 扫我">
+    <div class="contact-grid">
+      <div class="contact-left">
+        <p class="kicker rv">04 · 联系 / SAY HI</p>
+        <h2 class="contact-title rv" style="--d:.06s">来，拆下一个盲盒</h2>
+        <p class="contact-lede rv" style="--d:.12s">合作的、体验的、或者只想说一句「有光哎」的，都欢迎。</p>
+        <div class="biz rv" style="--d:.18s">
+          <div class="biz-col">
+            <h3><span>✔</span> 欢迎来谈</h3>
+            <ul>
+              <li>商务合作</li>
+              <li>体验类内容共创</li>
+              <li>随便聊聊</li>
+            </ul>
+          </div>
+          <div class="biz-col no">
+            <h3><span>✕</span> 红线不接</h3>
+            <ul>
+              <li>消费苦难的感动营销</li>
+              <li>「抗癌人设」式剧本</li>
+              <li>一切需要我假装幸福的项目</li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact-links rv" style="--d:.24s">
+          <a class="cl" href="mailto:tonyknox999@163.com"><i>MAIL</i>tonyknox999@163.com</a>
+          <a class="cl" href="https://www.xiaohongshu.com/user/profile/55863ad8e4b1cf14aa9ae373" target="_blank" rel="noopener"><i>XHS</i>清风77（重启人生）</a>
+        </div>
+      </div>
+      <div class="contact-right rv" style="--d:.24s">
+        <!-- 粒子二维码停位锚点 -->
+        <div class="qr-anchor" id="qr-anchor"></div>
+        <p class="qr-note">粒子不转了就可以扫啦 → 直达小红书主页</p>
+      </div>
+    </div>
+    <div class="viva-end rv" style="--d:.1s">
+      <p class="ve-lat">VIVA LA VIDA</p>
+      <p class="ve-quote">「黑暗最怕的不是口号，是微光。」</p>
+      <p class="ve-cap">—— 人生万岁。下一个盲盒见。</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 清风77 · 上海 · viva la vida</p>
+  <p class="foot-dim">本页没有后端——由 <b id="pts-n">65,536</b> 颗微光和你此刻的滚动构成。</p>
+</footer>
+
+<div id="lightbox" aria-hidden="true">
+  <button class="lb-btn lb-close" aria-label="关闭">✕</button>
+  <button class="lb-btn lb-prev" aria-label="上一张">‹</button>
+  <figure class="lb-fig">
+    <img src="" alt="">
+    <figcaption></figcaption>
+  </figure>
+  <button class="lb-btn lb-next" aria-label="下一张">›</button>
+</div>
+
+<div id="hud" aria-hidden="true">
+  <p id="hud-line1">◈ 微光场</p>
+  <p id="hud-line2">— pts · — fps</p>
+</div>
+
+<script src="js/three.min.js" defer></script>
+<script src="js/qrcode.js" defer></script>
+<script src="js/field.js" defer></script>
+<script src="js/site.js" defer></script>
+</body>
+</html>
