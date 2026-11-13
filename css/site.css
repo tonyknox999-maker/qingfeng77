@@ -1783,3 +1783,21 @@ a.cs-chip:hover { color: var(--amber); border-color: rgba(255, 178, 94, .45); tr
   .qr-real { width: min(240px, 60vw); opacity: 1; transform: none; }
   .qr-anchor { display: grid; place-items: center; }
 }
+
+/* ---------- 图片加载占位：未加载完时显示暖色底，避免大片纯黑 ---------- */
+.pcard,
+.id-shot,
+.tl-shot,
+.sl-card,
+.vcard,
+.shot {
+  background-image: linear-gradient(135deg, #1b1410 0%, #2a1c12 46%, #1b1410 100%);
+}
+html[data-theme='light'] .pcard,
+html[data-theme='light'] .id-shot,
+html[data-theme='light'] .tl-shot,
+html[data-theme='light'] .sl-card,
+html[data-theme='light'] .vcard,
+html[data-theme='light'] .shot {
+  background-image: linear-gradient(135deg, #f3ece2 0%, #e9dbc9 46%, #f3ece2 100%);
+}
